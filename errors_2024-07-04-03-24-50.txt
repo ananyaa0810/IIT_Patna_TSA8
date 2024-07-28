@@ -1,0 +1,12 @@
+ERROR:root:BaggingClassifier.__init__() got an unexpected keyword argument 'base_estimator'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Temp\ipykernel_20320\3272799712.py", line 2016, in <module>
+    bagging_model = BaggingClassifier(base_estimator=base_estimator, n_estimators=10, random_state=42)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaggingClassifier.__init__() got an unexpected keyword argument 'base_estimator'
+ERROR:root:name 'LGBMClassifier' is not defined
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Temp\ipykernel_20320\3272799712.py", line 2072, in <module>
+    lgbm = LGBMClassifier()
+           ^^^^^^^^^^^^^^
+NameError: name 'LGBMClassifier' is not defined
